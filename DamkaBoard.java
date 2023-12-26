@@ -17,7 +17,7 @@ public class DamkaBoard {
 			yString = yString.replace("[", "");
 			yString = yString.replace("]", "");
 			if (j%2 == 0) {
-				System.out.println(yString);
+				System.out.println(yString + " ");
 			} else {
 				System.out.println(" " + yString);
 			}
