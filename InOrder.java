@@ -9,25 +9,20 @@ public class InOrder {
 	public static void main (String[] args) {
 		int Min = 0;
 		int Max = 10;
-		List<Integer> y = new ArrayList<Integer>();
+		int z;
+		int y;
 		Boolean n = true;
 		int x = Min + (int)(Math.random() * (Max - Min));
-		y.add(x);
-		int z;
+		y = x;
+		System.out.print(y);
 		while (n==true) {
 		z = Min + (int)(Math.random() * (Max - Min));
 			if (z >= x) {
-				y.add(z);
+				System.out.print(" " + z);
 				x = z;
 			} else {
 				n = false;
 			}
 		}
-		int size = y.size();
-		String yString = y.toString();
-		yString = yString.replace(",", "");
-		yString = yString.replace("[", "");
-		yString = yString.replace("]", "");
-		System.out.println(yString);
 	}	
 }
