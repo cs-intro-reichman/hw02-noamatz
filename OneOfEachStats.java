@@ -78,6 +78,6 @@ public class OneOfEachStats {
 			System.out.println("Number of families with 3 children: " + ThreeChildren);
 			System.out.println("Number of families with 4 or more children: " + FourChildren);
 			String most = (FourChildren > Math.max(TwoChildren, ThreeChildren)) ? "4 or more" : ((ThreeChildren > TwoChildren) ? "3" : "2");
-			System.out.println("The most common number of children is " + most);
+			System.out.println("The most common number of children is " + most + ".");
 	}
 }
