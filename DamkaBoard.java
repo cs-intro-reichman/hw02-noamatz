@@ -12,7 +12,7 @@ public class DamkaBoard {
 		}
 		for (int j = 0; j < x; j++) {
 			if ((j%2) == 0) {
-				System.out.println(z);
+				System.out.println(z + " ");
 			} else {
 				System.out.println(" " + z);
 			}	
