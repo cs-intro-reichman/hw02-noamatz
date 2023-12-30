@@ -73,7 +73,7 @@ public class OneOfEachStats {
 				sum = sum + famSize;
 			}
 		}
-			System.out.println("Average: " + (sum/Z) + " children to get to at least one of each gender.");
+			System.out.println("Average: " + (sum/Z) + " children to get at least one of each gender.");
 			System.out.println("Number of families with 2 children: " + TwoChildren);
 			System.out.println("Number of families with 3 children: " + ThreeChildren);
 			System.out.println("Number of families with 4 or more children: " + FourChildren);
