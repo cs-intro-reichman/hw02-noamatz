@@ -10,6 +10,9 @@ public class Reverse {
 			System.out.print(x.charAt((z - i) - 1));
 		}
 		System.out.println("");
+		if ((z%2) == 0) {
+			z--;
+		} 
 		System.out.println("The middle character is " + (x.charAt(z / 2)));
 	}
 }
